@@ -1,0 +1,179 @@
+/* Sticky footer styles
+-------------------------------------------------- */
+/*html{
+  position: relative;
+  min-height: 100%;
+}
+body {
+  /* Margin bottom by footer height ----
+  margin-bottom: 60px;
+  background: black;
+  
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here ----
+  height: 40px;
+  line-height: 40px; /* Vertically center the text there ----
+  background-color: #f5f5f5;
+}*/
+*{
+  box-sizing: border-box;
+}
+body{
+  height: 100%;
+  background-color: black;
+}
+
+/* Custom page CSS
+-------------------------------------------------- */
+
+#heading1{
+  font-family: 'Mukta', sans-serif;
+}
+
+#content {
+  margin-top: 90px;
+}
+
+.form-signin {
+  max-width: 300px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05)
+}
+
+.form-profile {
+  max-width: 600px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+  border-radius: 5px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.05)
+}
+
+.span-with-margin {
+  margin-right: 5px;
+}
+
+.link-without-underline {
+  text-decoration: none !important;
+}
+
+.post {
+  max-width: 800px;
+  padding: 19px 29px 29px;
+  margin: 0 auto 20px;
+  background: #fff;
+  border-radius: .5rem;
+}
+
+.f6 {
+  font-size: 12px !important;
+}
+
+.text-grey {
+  color: #9199a1 !important;
+}
+#root{
+  background-color: black;
+}
+.jumbotron{
+  background-color: #E7E1DA; /*#F2EFEB / #E7E1DA*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#img1{
+	width: 500px;
+	height: 500px;
+}
+
+#welcometext{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 45%;
+  padding: 20px;
+}
+
+
+.belowcontainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#img2{
+  width: 500px;
+  height: 500px;
+}
+#belowcontext{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 45%;
+  padding: 20px;
+}
+#heading2{
+  color: #fff;
+  font-family: 'Mukta', sans-serif;
+
+}
+#p2{
+  color:#b8b6b6;
+  opacity: 0.8;
+}
+
+
+/*Post List*/
+
+#postlist{
+  background-color: #000;
+  border-radius: .5rem;
+  padding-top:.2rem;
+  padding-left: .3rem;
+}
+
+
+/*Buttons*/
+
+#explorebtn, #publishbtn, 
+#editbtn, #deletebtn, 
+#postcommentbtn, #updateprofilebtn,
+#chngpassbtn, #signinbtn, #signupbtn{
+  color: #000;
+  border: 0.8px solid black;
+  border-radius: 0px;
+  transition: ease all 1s;
+}
+#explorebtn:hover, #publishbtn:hover,
+#postcommentbtn:hover, #updateprofilebtn:hover,
+#chngpassbtn:hover, #signinbtn:hover, #signupbtn:hover{
+  background-color: #000;
+  border: none;
+  color: white;
+}
+
+#editbtn:hover{
+  background-color: rgb(91, 91, 241);
+  border: none;
+  color: white;
+}
+#deletebtn:hover{
+  background-color: rgb(255, 95, 95);
+  border: none;
+  color: white;
+}
+
+
