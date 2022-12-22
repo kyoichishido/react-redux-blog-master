@@ -1,1 +1,1 @@
-# react-redux-blog-master
+# Forum for Students
